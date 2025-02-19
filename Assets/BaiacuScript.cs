@@ -24,12 +24,15 @@ public class BaiacuScript : MonoBehaviour
     public float balanceSpeed = 2f; // Velocidade do balanço
     public float balanceAmount = 10f; // Amplitude do balanço
 
+    public Animator animator;
+
     void Start()
     {
         startPosition = transform.position;
         originalScale = transform.localScale;
         originalColor = mySprite.color;
         originalRotation = transform.rotation.z;
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -42,19 +45,21 @@ public class BaiacuScript : MonoBehaviour
         if (Input.GetKey(KeyCode.Space)) 
         {
             isInflating = true;  // Inicia o processo de inflação
+            animator.SetBool("isInflating", true);
         }
         else 
         {
             isInflating = false;  // Inicia o processo de desinflação
+            animator.SetBool("isInflating", false);
         }
 
-        // Inflação ou desinflação dependendo da tecla pressionada
         if (isInflating)
         {
             inflateBaiacu();
         }
         else
         {
+
             deflateBaiacu();
         }
     }
@@ -86,6 +91,14 @@ public class BaiacuScript : MonoBehaviour
         {
             mySprite.color = Color.Lerp(mySprite.color, originalColor, Time.deltaTime * colorChangeSpeed);
         }
+
+        if (transform.localScale.x > 16f){
+            animator.SetFloat("IsDeflating", 0);
+        }
+        else{
+            animator.SetFloat("IsDeflating", 1);
+        }
+
         transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 }

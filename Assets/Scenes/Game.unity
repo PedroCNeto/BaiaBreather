@@ -530,6 +530,7 @@ GameObject:
   - component: {fileID: 1294838072}
   - component: {fileID: 1294838071}
   - component: {fileID: 1294838073}
+  - component: {fileID: 1294838074}
   m_Layer: 0
   m_Name: Baiacu
   m_TagString: Untagged
@@ -620,13 +621,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mySprite: {fileID: 1294838071}
-  amplitude: 0.5
+  amplitude: 2
   speed: 1.4
   inflateSpeed: 0.4
   maxScale: 25
-  targetColor: {r: 1, g: 0, b: 1, a: 1}
+  targetColor: {r: 0.9528302, g: 0.51686543, b: 0.9528302, a: 1}
   balanceSpeed: 2
   balanceAmount: 10
+--- !u!95 &1294838074
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294838070}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 57c95a4ed82edba4a86a650dd99486d1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1695485615
 GameObject:
   m_ObjectHideFlags: 0
