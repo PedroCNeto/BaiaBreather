@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: dac4f81d0cb92c14091506c7e4c732dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8215964293205478435
+    second: breathIn1_0
+  - first:
+      213: 2228508095159213141
+    second: breathIn1_1
+  - first:
+      213: 6417904450974386036
+    second: breathIn1_2
+  - first:
+      213: 3061498357003473996
+    second: breathIn1_3
+  - first:
+      213: -4533933918815943144
+    second: breathIn1_4
+  - first:
+      213: -7109444863914557715
+    second: breathIn1_5
+  - first:
+      213: -6794225976275139299
+    second: breathIn1_6
+  - first:
+      213: 4707439397445001039
+    second: breathIn1_7
+  - first:
+      213: -3555887197615646702
+    second: breathIn1_8
+  - first:
+      213: 3368743490192354408
+    second: breathIn1_9
+  - first:
+      213: -6468096976070744971
+    second: breathIn1_10
+  - first:
+      213: -9074688425973058551
+    second: breathIn1_11
+  - first:
+      213: -5740887255110147919
+    second: breathIn1_12
+  - first:
+      213: -5399568672830693549
+    second: breathIn1_13
+  - first:
+      213: -5067982486751321584
+    second: breathIn1_14
+  - first:
+      213: -1028115467414172430
+    second: breathIn1_15
+  - first:
+      213: 7600631697353498145
+    second: breathIn1_16
+  - first:
+      213: -6202029152444478438
+    second: breathIn1_17
+  - first:
+      213: -4683641068561218746
+    second: breathIn1_18
+  - first:
+      213: 7840226935913417237
+    second: breathIn1_19
+  - first:
+      213: -4034288482350147438
+    second: breathIn1_20
+  - first:
+      213: 4294896888726401697
+    second: breathIn1_21
+  - first:
+      213: 982781119528721009
+    second: breathIn1_22
+  - first:
+      213: -5399071268014876142
+    second: breathIn1_23
+  - first:
+      213: -7578572586161333082
+    second: breathIn1_24
+  - first:
+      213: 7723241640788798628
+    second: breathIn1_25
+  - first:
+      213: -4872750649906384236
+    second: breathIn1_26
+  - first:
+      213: 6652197603435255546
+    second: breathIn1_27
+  - first:
+      213: 5118850844132624599
+    second: breathIn1_28
+  - first:
+      213: -3986969582438345863
+    second: breathIn1_29
+  - first:
+      213: -3389299697598301628
+    second: breathIn1_30
+  - first:
+      213: 8549283095733604482
+    second: breathIn1_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: breathIn1_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 48
+        width: 76
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3b13061080bfd80800000000000000
+      internalID: -8215964293205478435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 94
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c1c0f2e404dee10800000000000000
+      internalID: 2228508095159213141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 83
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4770aba381af01950800000000000000
+      internalID: 6417904450974386036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 80
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4452a10980ac7a20800000000000000
+      internalID: 3061498357003473996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 54
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81681e56f1b3411c0800000000000000
+      internalID: -4533933918815943144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 95
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deeb520509d265d90800000000000000
+      internalID: -7109444863914557715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 79
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d158360d87f06b1a0800000000000000
+      internalID: -6794225976275139299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 63
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f536ed03f245140800000000000000
+      internalID: 4707439397445001039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 60
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21892c40f63f6aec0800000000000000
+      internalID: -3555887197615646702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 31
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c23502b5e20ce20800000000000000
+      internalID: 3368743490192354408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 64
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5746688d114bc36a0800000000000000
+      internalID: -6468096976070744971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_11
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 67
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904f682d4fa301280800000000000000
+      internalID: -9074688425973058551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_12
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 68
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0a79f35754450b0800000000000000
+      internalID: -5740887255110147919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 36
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f599376e0e015b0800000000000000
+      internalID: -5399568672830693549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_14
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 77
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012694597c8eaa9b0800000000000000
+      internalID: -5067982486751321584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 56
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc81b8fd666bb1f0800000000000000
+      internalID: -1028115467414172430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 60
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e5455424eda7960800000000000000
+      internalID: 7600631697353498145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 10
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c0ee97857fde9a0800000000000000
+      internalID: -6202029152444478438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_18
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 40
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6434afc534d500fb0800000000000000
+      internalID: -4683641068561218746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_19
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 32
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a8191ebd41ecc60800000000000000
+      internalID: 7840226935913417237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_20
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 42
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298d118fff35308c0800000000000000
+      internalID: -4034288482350147438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_21
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 52
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2b77707f98a9b30800000000000000
+      internalID: 4294896888726401697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 38
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a5871a83a83ad00800000000000000
+      internalID: 982781119528721009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 39
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a94f88945a215b0800000000000000
+      internalID: -5399071268014876142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_24
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 29
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac1759c26083d690800000000000000
+      internalID: -7578572586161333082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 26
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aca8b15a577e2b60800000000000000
+      internalID: 7723241640788798628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_26
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 37
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492b641d913806cb0800000000000000
+      internalID: -4872750649906384236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 26
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af69678b97a515c50800000000000000
+      internalID: 6652197603435255546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_28
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 8
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8cbbec8bfc90740800000000000000
+      internalID: 5118850844132624599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_29
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 19
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9739974e9407ba8c0800000000000000
+      internalID: -3986969582438345863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_30
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 7
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a705fd1e9c6f0d0800000000000000
+      internalID: -3389299697598301628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breathIn1_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2801475fda725a670800000000000000
+      internalID: 8549283095733604482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      breathIn1_0: -8215964293205478435
+      breathIn1_1: 2228508095159213141
+      breathIn1_10: -6468096976070744971
+      breathIn1_11: -9074688425973058551
+      breathIn1_12: -5740887255110147919
+      breathIn1_13: -5399568672830693549
+      breathIn1_14: -5067982486751321584
+      breathIn1_15: -1028115467414172430
+      breathIn1_16: 7600631697353498145
+      breathIn1_17: -6202029152444478438
+      breathIn1_18: -4683641068561218746
+      breathIn1_19: 7840226935913417237
+      breathIn1_2: 6417904450974386036
+      breathIn1_20: -4034288482350147438
+      breathIn1_21: 4294896888726401697
+      breathIn1_22: 982781119528721009
+      breathIn1_23: -5399071268014876142
+      breathIn1_24: -7578572586161333082
+      breathIn1_25: 7723241640788798628
+      breathIn1_26: -4872750649906384236
+      breathIn1_27: 6652197603435255546
+      breathIn1_28: 5118850844132624599
+      breathIn1_29: -3986969582438345863
+      breathIn1_3: 3061498357003473996
+      breathIn1_30: -3389299697598301628
+      breathIn1_31: 8549283095733604482
+      breathIn1_4: -4533933918815943144
+      breathIn1_5: -7109444863914557715
+      breathIn1_6: -6794225976275139299
+      breathIn1_7: 4707439397445001039
+      breathIn1_8: -3555887197615646702
+      breathIn1_9: 3368743490192354408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

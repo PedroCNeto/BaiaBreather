@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class BaiacuScript : MonoBehaviour
 {
+
+    public BreathingEffect breath;
     public SpriteRenderer mySprite;
 
     public float amplitude = 0.5f; 
@@ -59,9 +61,9 @@ public class BaiacuScript : MonoBehaviour
         }
         else
         {
-
             deflateBaiacu();
         }
+        breath.setAnimParams(transform.localScale, transform.rotation, transform.position);
     }
 
     void inflateBaiacu()
@@ -69,6 +71,8 @@ public class BaiacuScript : MonoBehaviour
         // Infla o Baiacu de forma suave
         float newScale = Mathf.Lerp(transform.localScale.x, maxScale, Time.deltaTime * inflateSpeed);
         transform.localScale = new Vector3(newScale, newScale, newScale);
+        breath.animationTrigger("IsInflating");
+        breath.setAnimValue("IsDeflating", 0);
 
         // Muda a cor quando atingir o tamanho máximo
         if (transform.localScale.x >= 20f)
@@ -97,6 +101,14 @@ public class BaiacuScript : MonoBehaviour
         }
         else{
             animator.SetFloat("IsDeflating", 1);
+        }
+
+        if(transform.localScale.x > 12f){
+            breath.setAnimValue("IsDeflating", 1);
+        }
+        else{
+            breath.animationTrigger("IsNormalAgain");
+            breath.setAnimValue("IsDeflating", 0);
         }
 
         transform.rotation = Quaternion.Euler(0, 0, 0);
