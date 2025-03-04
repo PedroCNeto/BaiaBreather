@@ -6,6 +6,8 @@ public class BaiacuScript : MonoBehaviour
     public BreathingEffect breath;
     public SpriteRenderer mySprite;
 
+    public ProgressBar barra;
+
     public float timerRespiracao; // Tempo para o ciclo de respiracao;
 
     public float amplitude = 0.5f; // Amplitude do balanço do baiacu para cima e para baixo
@@ -68,7 +70,6 @@ public class BaiacuScript : MonoBehaviour
         {
             inflateBaiacu();
             animator.SetBool("isInflating", true);
-
         }
         else
         {
@@ -76,11 +77,15 @@ public class BaiacuScript : MonoBehaviour
             deflateBaiacu();
         }
 
+        barra.atualizarBarra(timerRespiracao);
+
         timerRespiracao -= Time.deltaTime;
 
         if(timerRespiracao < 0){
             timerRespiracao = 5.0f;
         }
+
+
 
         breath.setAnimParams(transform.localScale, transform.rotation, transform.position);
     }
@@ -122,12 +127,10 @@ public class BaiacuScript : MonoBehaviour
             animator.SetFloat("IsDeflating", 1);
         }
 
-        if(timerRespiracao < 2.5f){
-            print("Ta aqui");
+        if(timerRespiracao <= 2.5f){
             breath.setAnimValue("IsDeflating", 1);
         }
         else{
-            print("Não ta ali");
             breath.animationTrigger("IsNormalAgain");
             breath.setAnimValue("IsDeflating", 0);
         }
