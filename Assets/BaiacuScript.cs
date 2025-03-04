@@ -6,10 +6,12 @@ public class BaiacuScript : MonoBehaviour
     public BreathingEffect breath;
     public SpriteRenderer mySprite;
 
+    public float timerRespiracao; // Tempo para o ciclo de respiracao;
+
     public float amplitude = 0.5f; // Amplitude do balanço do baiacu para cima e para baixo
     public float velocidadeDeBalanco = 1.4f; // Velocidade que o baiacu se movimenta
-    public float velocidadeDeInflacao = 0.4f; // Velocidade que o baiacu vai inchar ou desinchar
-    public float tamanhoMaximo = 25f; // Tamanho maximo que ele pode chegar
+    public float velocidadeDeInflacao = 0.8f; // Velocidade que o baiacu vai inchar ou desinchar
+    public float tamanhoMaximo = 4f; // Tamanho maximo que ele pode chegar
 
     private Vector3 posicaoInicial;
     private Vector3 escalaInicial;
@@ -32,6 +34,7 @@ public class BaiacuScript : MonoBehaviour
         escalaInicial = transform.localScale;
         corOriginal = mySprite.color;
         animator = GetComponent<Animator>();
+        timerRespiracao = 5.0f;
     }
 
     void Update()
@@ -41,25 +44,44 @@ public class BaiacuScript : MonoBehaviour
         transform.position = new Vector3(posicaoInicial.x, newY, posicaoInicial.z);
 
         // Verifica se o jogador está pressionando a tecla espaço
-        if (Input.GetKey(KeyCode.Space)) 
-        {
-            isInflating = true;  // Inicia o processo de inflação
-            animator.SetBool("isInflating", true);
-        }
-        else 
-        {
-            isInflating = false;  // Inicia o processo de desinflação
-            animator.SetBool("isInflating", false);
-        }
+        // if (Input.GetKey(KeyCode.Space)) 
+        // {
+        //     isInflating = true;  // Inicia o processo de inflação
+        //     animator.SetBool("isInflating", true);
+        // }
+        // else 
+        // {
+        //     isInflating = false;  // Inicia o processo de desinflação
+        //     animator.SetBool("isInflating", false);
+        // }
 
-        if (isInflating)
+        // if (isInflating)
+        // {
+        //     inflateBaiacu();
+        // }
+        // else
+        // {
+        //     deflateBaiacu();
+        // }
+
+        if (timerRespiracao > 2.5f)
         {
             inflateBaiacu();
+            animator.SetBool("isInflating", true);
+
         }
         else
         {
+            animator.SetBool("isInflating", false);
             deflateBaiacu();
         }
+
+        timerRespiracao -= Time.deltaTime;
+
+        if(timerRespiracao < 0){
+            timerRespiracao = 5.0f;
+        }
+
         breath.setAnimParams(transform.localScale, transform.rotation, transform.position);
     }
 
@@ -72,7 +94,7 @@ public class BaiacuScript : MonoBehaviour
         breath.setAnimValue("IsDeflating", 0);
 
         // Muda a cor quando atingir o tamanho máximo
-        if (transform.localScale.x >= 20f)
+        if (transform.localScale.x >= (tamanhoMaximo - 1))
         {
             mySprite.color = Color.Lerp(mySprite.color, corAlvo, Time.deltaTime * velocidadeDaMudancaDeCor);
             // Faz o Baiacu balançar
@@ -88,22 +110,24 @@ public class BaiacuScript : MonoBehaviour
         transform.localScale = new Vector3(newScale, newScale, newScale);
 
         // Volta para a cor original quando o tamanho diminui
-        if (transform.localScale.x < 20f)
+        if (transform.localScale.x < (tamanhoMaximo - 1))
         {
             mySprite.color = Color.Lerp(mySprite.color, corOriginal, Time.deltaTime * velocidadeDaMudancaDeCor);
         }
 
-        if (transform.localScale.x > 16f){
+        if (transform.localScale.x > (tamanhoMaximo - 3)){
             animator.SetFloat("IsDeflating", 0);
         }
         else{
             animator.SetFloat("IsDeflating", 1);
         }
 
-        if(transform.localScale.x > 12f){
+        if(timerRespiracao < 2.5f){
+            print("Ta aqui");
             breath.setAnimValue("IsDeflating", 1);
         }
         else{
+            print("Não ta ali");
             breath.animationTrigger("IsNormalAgain");
             breath.setAnimValue("IsDeflating", 0);
         }

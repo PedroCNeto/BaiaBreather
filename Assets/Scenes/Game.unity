@@ -689,10 +689,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   breath: {fileID: 956043079}
   mySprite: {fileID: 1294838071}
+  timerRespiracao: 0
   amplitude: 0.5
   velocidadeDeBalanco: 1.4
-  velocidadeDeInflacao: 0.4
-  tamanhoMaximo: 25
+  velocidadeDeInflacao: 0.8
+  tamanhoMaximo: 4
   corAlvo: {r: 1, g: 0, b: 1, a: 1}
   velocidadeBalanco: 2
   amplitudeBalanco: 10
