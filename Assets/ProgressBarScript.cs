@@ -1,13 +1,11 @@
-using Microsoft.Unity.VisualStudio.Editor;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 public class ProgressBar : MonoBehaviour
 {
 
-    public UnityEngine.UI.Image preenchimentoBarra;
+    public Image preenchimentoBarra;
     public TextMeshProUGUI texto;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
